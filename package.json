@@ -1,0 +1,44 @@
+{
+  "name": "vueneue-axios-vuex-auth",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ssr:serve": "vue-cli-service ssr:serve",
+    "ssr:build": "vue-cli-service ssr:build",
+    "ssr:start": "vue-cli-service ssr:start",
+    "generate": "vue-cli-service generate"
+  },
+  "dependencies": {
+    "@vueneue/ssr-core": "^0.3.0",
+    "@vueneue/ssr-server": "^0.3.0",
+    "core-js": "^2.5.7",
+    "regenerator-runtime": "^0.12.1",
+    "vue-class-component": "^6.2.0",
+    "vue-meta": "^1.5.0",
+    "vue-no-ssr": "^0.2.2",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.1"
+  },
+  "devDependencies": {
+    "@vueneue/vue-cli-plugin-ssr": "^0.3.16"
+  },
+  "main": "index.js",
+  "homepage": "https://github.com/camwhite/vueneue-axios-vuex-auth#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/camwhite/vueneue-axios-vuex-auth.git"
+  },
+  "keywords": [
+    "ssr",
+    "auth",
+    "vueneue"
+  ],
+  "author": "camwhite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camwhite/vueneue-axios-vuex-auth/issues"
+  },
+  "description": "Example of ssr auth with vuex and axios"
+}
