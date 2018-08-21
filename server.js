@@ -49,7 +49,7 @@ class Auth {
 function routes (app, opts, next) {
   const auth = new Auth(app.jwt)
 
-  app.post('/signin', (request, reply) => {
+  app.post('/signin', async (request, reply) => {
     try {
       const response = await auth.signin()
       reply.json(response)
