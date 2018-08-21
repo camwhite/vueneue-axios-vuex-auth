@@ -1,5 +1,3 @@
-import axios from 'axios'
-
 export default async function ({ store, ctx }) {
   if (!process.client) {
     if (ctx.headers.authorization) {
