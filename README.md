@@ -3,7 +3,14 @@
 An example attemptimg to use vuex and axios interceptors to handle ssr app permission in 
 a [vueneue](https://github.com/vueneue/vueneue) app.
 
-***Warning**: this is not fully functional, lacking a API server*
+***Warning**: this is not fully functional, WIP*
+
+## Startup
+
+In separate terminals
+
+- `npm run ssr:serve`
+- `node server`
 
 ## Commit message prefixes
 

@@ -68,6 +68,7 @@ function routes (app, opts, next) {
 (async () => {
   try {
     await app.listen(3001)
+    console.log(`Server listening on port ${app.server.address().port}`)
   } catch (err) {
     throw err
   }
